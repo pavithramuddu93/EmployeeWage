@@ -10,7 +10,7 @@ public class Main {
     public static int empHrs = 0, totalWorkingDays = 0, totalEmpHrs = 0;
     public static int numOfWorkingDays = 20;
 
-    private static void wageComputation() {
+        private static void wageComputation() {
         Random random = new Random();
         while ( totalEmpHrs < MAX_HRS_IN_MONTHS && totalWorkingDays < numOfWorkingDays ) {
             int empCheck = (int) Math.floor(Math.random() * 10) % 3;
@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Employee Wage is : " + empWage);
     }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
         wageComputation();
     }
