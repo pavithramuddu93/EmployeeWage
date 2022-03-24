@@ -26,6 +26,8 @@ public class Main {
         System.out.println("Employee Wage for company " + company + " is : " + empWage);
     }
 
+
+     // This is main method, This is a starting point of EmpWageComputation program
     public static void main(String[] args) {
         System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
         wageComputation("dMArt", 20, 2, 10);
