@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Employee Wage for company " + company + " is : " + empWage);
     }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
         wageComputation("dMArt", 20, 2, 10);
         wageComputation("Reliance", 30, 4, 14);
